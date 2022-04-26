@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+h1 {
+    font-family: 'Chelsea Market', cursive;
+}
+.navbar {
+    display: flex;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    align-self: center;
+    justify-self: center;
+    
+}
+.navlinks{
+    height: 60px;
+    width: 150px;
+    border-radius: 15px;
+    vertical-align: middle;
+    padding: 10px;
+}
+.plan {
+    background-color: #FF764E;
+}
+.learn {
+    background-color: #5ED3EB;
+}
+.get-involved {
+    background-color: #FFCD69;
+}
+.banner{
+    margin: auto;
+    height: 300px;
+    width: 80%;
+    margin-top: 60px;
+}
+.banner img {
+    border-radius: 50%;
+    height: 300px;
+    float: left;
+
+}
+.title {
+    padding: 40px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.title h1{
+    font-size: 54px;
+    font-weight: 300;
+}
+.title p {
+    width: 70%;
+}
+.extra{
+    width: 80%;
+    text-align: center;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.info {
+    color: white;
+    background-color: #DDB9A3;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px;
+}
+.container {
+    margin: auto;
+    width: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.container img{
+    height: 150px;
+    width: 150px;
+
+}
+footer {
+    background-color: #F9E7DC;
+    width: 100%;
+    height: 400px;
+    margin: 0;
+}
+footer img {
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+}
